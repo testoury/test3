@@ -2,123 +2,149 @@
 <html lang="en">
 
 <head>
-    <title>HTML Project</title>
+    <title>My First portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
-   
 
-   <body>
-    <a id="home"></a>
-<header>
-    <h1>My First portfolio </h1>
-<div class="btns">
-     <span><a href="#home" >＞Home</a></span>
-     <span><a href="#about" >＞About</a></span>
-     <span><a href="#work">＞Work</a></span>
-     <span><a href="#hobbies">＞Hobbies</a></span>
-     <span><a href="#contact">＞Contact</a></span>
-</div>
-</header>
-<br> 
-<hr>
-<!--about (start)--> 
-<section class="aboutsec">
-    <div>
-    <a class="about1"  id="about" >❰About ME❱</a>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">My First portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Hobbies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
     <br>
-     <img style="margin-top: 20px;margin-right: 20px; border-block: 20px; border-color: black;" src="pics/me.jpg" alt="my pic" width="300" height="300"> 
-</div>
-<div>
-     <p class="aboutp" style="margin-top: 5% ;margin-left:3% ;">
-        ❖Thanks for your interest, here is a quick story of me and this website
-     Hey this is me , i'm Testouri Hichem , i'm 21 years old , i borned in nabeul but for now i live in zaghouan i just move here because i start my first formation andd it was "Cap Tce"  
-     and i just stopped after i get my first diplomat and then i switch to something i realy want like and want to learn it it's web Development 
-     so i just start my first steps in GoMyCOde school with my instructor "wissem ben hadj khelifa" yea he is a good teacher 
-     so thats it welcome to my first try with HTML language hope you like it ^^
-     my fav song❖</p>
-</div>
-</section>
-<!--about (end)-->
-<hr>
-<!--work (start)-->
-<section class="worksec">
-    <a class="about1" id="work">❰Work❱</a>
-    <p class="aboutp">About my work im manager in coffeshop called "LA FABRICA" in zaghouan , let me show you some pictures :  </p>
-<center>
-<div class="divimgwork ">
-    <img  src="pics/fab1 (4).jpg" alt="coffeshop" width="200" height="200">
-    <img  src="pics/fab1 (6).jpg" alt="coffe" width="200" height="200">
-    <img  src="pics/fab1 (5).jpg" alt="crepe" width="200" height="200">
-    <img  src="pics/fab1 (3).jpg" alt="coffe" width="200" height="200" >
-    <img src="pics/fab1 (2).jpg" alt="mojito" width="200" height="200">
-</div> 
-</center>
-</section>
-<!--work (end)-->
-<br> 
-<hr>
-<!--Hobbies (start)--> 
-<section class="hobbiessec" >
-    <div>
-        <a  class="about1" id="hobbies">❰Hobbies ❱</a>
-    <p class="aboutp">My hobby is playing video games </p>
-    <h4 style="letter-spacing: 5px ; font-size: 20px; margin: 0px ; ">This some games that i play:</h4>
-    <div>
-    <ul class="ulhobbies">
-         <li>League of legends</li>
-         <li>Valorant</li>
-         <li>Cs go </li>
-         <li>Fifa</li>
-         <li>Nba</li>
-    </ul> 
-    </div> 
-    <p class="aboutp">and more </p>
- </div>
-<div>
-    <p class="aboutp" >Here some clips i do in League of legends :</p>
-         <video  width="320" height="240"  controls>
-         <source  src="vids/Lol.mp4" type="video/mp4" >
-    </video>
-</div>
-</section>
-<!--Hobbies (end)-->
-<br> 
-<hr>
-<!--contact (start)--> 
- <section class="worksec">
-    <a  class="about1" id="contact">❰Contact Me❱</a>
-    <div class="aboutp">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name:</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      <br>
-          <label for="lname">Last Name:</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      <br>
-          <label for="email">Email:</label>
-          <input type="email" name="your email" id="email" placeholder="Your Email">
-      <br>
-          <label for="subject">Subject:</label>
-          <br>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
-      <br>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-</section>
-<!--contact (end)--> 
-<br> 
-<hr>
-<footer class="worksec">
-    <address class="aboutp">
-        Written by <a href="mailto:bloudandgold5655@gmail.com">Testouri Hichem</a>.<br> 
-        Visit me at:<br>
-        ❖My Email : bloudandgold565@gmail.com❖<br>
-        ❖My Facebook Profile: https://www.facebook.com/TesTourY/❖<br>
-        ❖My Github Profile: https://github.com/testoury❖<br>
+    <hr>
+    <!--about (start)-->
+    <section class="aboutsec">
+        <div>
+            <a class="about1" id="about">❰About ME❱</a>
+            <br>
+            <img style="margin-top: 20px;margin-right: 20px;" src="pics/me.jpg"
+                alt="my pic" width="300" height="300">
+        </div>
+        <div>
+            <p class="aboutp" style="margin-top: 5% ;margin-left:3% ;">
+                ❖Thanks for your interest, here is a quick story of me and this website
+                Hey this is me , i'm Testouri Hichem , i'm 21 years old , i borned in nabeul but for now i live in
+                zaghouan i just move here because i start my first formation andd it was "Cap Tce"
+                and i just stopped after i get my first diplomat and then i switch to something i realy want like and
+                want to learn it it's web Development
+                so i just start my first steps in GoMyCOde school with my instructor "wissem ben hadj khelifa" yea he is
+                a good teacher
+                so thats it welcome to my first try with HTML language hope you like it ^^
+                my fav song❖</p>
+        </div>
+    </section>
+    <!--about (end)-->
+    <hr>
+    <!--work (start)-->
+    <section class="worksec">
+        <a class="about1" id="work">❰Work❱</a>
+        <p class="aboutp">About my work im manager in coffeshop called "LA FABRICA" in zaghouan , let me show you some
+            pictures : </p>
+        <center>
+            <div class="divimgwork ">
+                <img src="pics/fab1 (4).jpg" alt="coffeshop" width="200" height="200">
+                <img src="pics/fab1 (6).jpg" alt="coffe" width="200" height="200">
+                <img src="pics/fab1 (5).jpg" alt="crepe" width="200" height="200">
+                <img src="pics/fab1 (3).jpg" alt="coffe" width="200" height="200">
+                <img src="pics/fab1 (2).jpg" alt="mojito" width="200" height="200">
+            </div>
+        </center>
+    </section>
+    <!--work (end)-->
+    <br>
+    <hr>
+    <!--Hobbies (start)-->
+    <section class="hobbiessec">
+        <div>
+            <a class="about1" id="hobbies">❰Hobbies ❱</a>
+            <p class="aboutp">My hobby is playing video games </p>
+            <h4 style="letter-spacing: 5px ; font-size: 20px; margin: 0px ; ">This some games that i play:</h4>
+            <div>
+                <ul class="ulhobbies">
+                    <li>League of legends</li>
+                    <li>Valorant</li>
+                    <li>Cs go </li>
+                    <li>Fifa</li>
+                    <li>Nba</li>
+                </ul>
+            </div>
+            <p class="aboutp">and more </p>
+        </div>
+        <div>
+            <p class="aboutp">Here some clips i do in League of legends :</p>
+            <video width="320" height="240" controls>
+                <source src="vids/Lol.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <!--Hobbies (end)-->
+    <br>
+    <hr>
+    <!--contact (start)-->
+    <section class="worksec">
+        <a class="about1" id="contact">❰Contact Me❱</a>
+        <div class="aboutp">
+            <form action="action_page.php">
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <br>
+                <label for="email">Email:</label>
+                <input type="email" name="your email" id="email" placeholder="Your Email">
+                    <br>
+                <label for="subject">Subject:</label>
+                    <br>
+                <textarea id="subject" name="subject" placeholder="Write something.."
+                    style="height:150px"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <!--contact (end)-->
+    <br>
+    <hr>
+    <footer class="worksec">
+        <address class="aboutp">
+            Written by <a href="mailto:bloudandgold5655@gmail.com">Testouri Hichem</a>.<br>
+            Visit me at:<br>
+            ❖My Email : bloudandgold565@gmail.com❖<br>
+            ❖My Facebook Profile: https://www.facebook.com/TesTourY/❖<br>
+            ❖My Github Profile: https://github.com/testoury❖<br>
         </address>
         <a href="#home">top</a>
-</footer>
-   </body>
+    </footer>
+</body>
+
 </html>
