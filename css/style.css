@@ -1,15 +1,65 @@
+.navb {
+  color: rgb(255, 255, 255);
+  margin-left: 0%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 0%;
+  
+} 
 .about {
   margin-top: 5%;
+  
 }
 
 .pabout{
   margin-top: 30px;
 }
 .worka {
-  width: 60%;
+  width: 70%;
   margin-left: 20%;
+  
 }
-.picsize {
-  width: 900px;
-  height: 1000px;
+.slides {
+  margin-left: 23%;
+  width: 55%;
+  height: 15%;
+}
+.workbtn {
+  color: rgb(28, 134, 196);
+  
+}
+.btnnav{
+  color: aliceblue;
+
+}
+.text-box{
+  color: #fff;
+  justify-content: center;
+  margin-left: 25%;
+  
+}
+.text-box p {
+  font-size: 50px;
+  font-weight: 600;
+}
+.text-box h1 {
+  font-size: 100px;
+  line-height: 160px;
+  margin-left: -10%;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 10s linear infinite;
+}
+@keyframes back{
+  100%{
+    background-position: 2000px 0;
+  }
+}
+.text-box h3 {
+  font-size: 30px;
+  font-weight: 500;
 }
