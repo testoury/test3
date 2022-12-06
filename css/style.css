@@ -1,32 +1,30 @@
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   src: url(fonts/Poppins);
 }
+*{ 
+  margin: 0%;
+  padding: 0%;
 
-
-
+}
 .navb {
   color: rgb(255, 255, 255);
   margin-left: 0%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: bold;
   letter-spacing: 5px;
   padding: 0%;
-  
-} 
-span{
+}
+.navb span{
   color: #25bcff;
 }
 .about {
   margin-top: 5%;
-  
-  
 }
-
 
 .worka {
   width: 70%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
 }
 .slides {
@@ -36,20 +34,16 @@ span{
 }
 .workbtn {
   color: rgb(28, 134, 196);
-  font-family: Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 5px;
-  
 }
-.btnnav{
+.btnnav {
   color: aliceblue;
-
 }
-.text-box{
+.text-box {
   color: #fff;
   justify-content: center;
   margin-left: 25%;
-  
-  
 }
 .text-box p {
   font-size: 50px;
@@ -63,13 +57,12 @@ span{
   margin-left: -10%;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
-  
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 10s linear infinite;
 }
-@keyframes back{
-  100%{
+@keyframes back {
+  100% {
     background-position: 2000px 0;
   }
 }
@@ -77,23 +70,72 @@ span{
   font-size: 30px;
   font-weight: 500;
   margin-left: 40%;
-  
 }
-.boxli1{
+.bodycard{
+  justify-content: center;
+  
+  align-items: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #f6f6f6;
-  
 }
-.boxli{
-  margin: 0;
-  padding: 0;
+.ccard{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+ width: 100%;
+
+}
+.card1{
+  height: 300px;
+  margin: 10px;
+  box-shadow: 5px 10px 20px rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.imgscard{
+  height: 300px;
+  width: 200px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.discrp{
+  height: 7%;
+  width: 200px;
+  padding: 0px;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  background: rgba(212, 212, 212, 0.363);
+  color: rgb(255, 255, 255);
+  bottom: -183.5%;
+  transition: 0.5s;
 }
-
-
+.ccard p{
+  font-size: 15px;
+  margin-left: 10px;
+ 
+  visibility: hidden;
+  opacity: 0;
+}
+.ccard h5{
+  margin: 7px;
+  font-size: 20px;
+}
+.ccard span{
+  font-weight: bold;
+  color: #25bcff;
+}
+.card1:hover{
+  cursor: pointer;
+}
+.card1:hover .discrp{
+  height: 26%;
+  bottom: -183.5;
+  background: rgba(0, 0, 0, 0.432);
+}
+.card1:hover p{
+  opacity: 1;
+  visibility: visible;
+}
+.card1:hover img {
+  transform: scale(1.1) rotate(-3deg);
+}
