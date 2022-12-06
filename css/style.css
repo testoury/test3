@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(fonts/Poppins);
+}
+
+
+
 .navb {
   color: rgb(255, 255, 255);
   margin-left: 0%;
@@ -7,18 +14,20 @@
   padding: 0%;
   
 } 
+span{
+  color: #25bcff;
+}
 .about {
   margin-top: 5%;
   
+  
 }
 
-.pabout{
-  margin-top: 30px;
-}
+
 .worka {
   width: 70%;
-  margin-left: 20%;
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
 }
 .slides {
   margin-left: 23%;
@@ -27,6 +36,8 @@
 }
 .workbtn {
   color: rgb(28, 134, 196);
+  font-family: Arial, Helvetica, sans-serif ;
+  letter-spacing: 5px;
   
 }
 .btnnav{
@@ -38,10 +49,13 @@
   justify-content: center;
   margin-left: 25%;
   
+  
 }
 .text-box p {
   font-size: 50px;
   font-weight: 600;
+  margin-bottom: -3%;
+  margin-left: -7%;
 }
 .text-box h1 {
   font-size: 100px;
@@ -62,4 +76,24 @@
 .text-box h3 {
   font-size: 30px;
   font-weight: 500;
+  margin-left: 40%;
+  
 }
+.boxli1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f6f6f6;
+  
+}
+.boxli{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+
