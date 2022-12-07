@@ -1,7 +1,5 @@
-@font-face {
-  font-family: "Poppins";
-  src: url(fonts/Poppins);
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@700&display=swap');
 *{ 
   margin: 0%;
   padding: 0%;
@@ -14,12 +12,17 @@
   font-weight: bold;
   letter-spacing: 5px;
   padding: 0%;
+  
+}
+.marglogo{
+  margin-left: 3%;
 }
 .navb span{
   color: #25bcff;
 }
 .about {
   margin-top: 5%;
+  
 }
 
 .worka {
@@ -69,7 +72,7 @@
 .text-box h3 {
   font-size: 30px;
   font-weight: 500;
-  margin-left: 40%;
+  margin-left: 30%;
 }
 .bodycard{
   justify-content: center;
@@ -87,7 +90,7 @@
 .card1{
   height: 300px;
   margin: 10px;
-  box-shadow: 5px 10px 20px rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px rgb(255, 255, 255);
   overflow: hidden;
 }
 
@@ -112,13 +115,16 @@
 .ccard p{
   font-size: 15px;
   margin-left: 10px;
- 
+  font-family: 'Anton', sans-serif;
   visibility: hidden;
   opacity: 0;
 }
 .ccard h5{
   margin: 7px;
   font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  -webkit-text-stroke: 2px #2e2e2e;
+  -webkit-background-clip: text;
 }
 .ccard span{
   font-weight: bold;
@@ -138,4 +144,119 @@
 }
 .card1:hover img {
   transform: scale(1.1) rotate(-3deg);
+}
+.contsec{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.contsec h1{
+  text-align: center;
+  color: #ddd;
+}
+.contactsec{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+
+}
+.conboxs-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.conboxs-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+.contactsec textarea.conboxs-text{
+  resize: none;
+  height: 120px;
+}
+.conboxs-text-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.conboxs-text-btn:hover{
+  background: #25bcff;
+}
+footer{
+  position: absolute;
+  background: #111;
+  height: auto;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: rgb(233, 40, 40);
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100%q;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
 }
