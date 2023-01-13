@@ -26,7 +26,7 @@
 }
 
 .worka {
-  width: 70%;
+  
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
 }
@@ -109,7 +109,7 @@
   position: absolute;
   background: rgba(212, 212, 212, 0.363);
   color: rgb(255, 255, 255);
-  bottom: -183.5%;
+  bottom: -345.25%;
   transition: 0.5s;
 }
 .ccard p{
@@ -259,4 +259,10 @@ footer{
   text-transform: uppercase;
   opacity: .4;
   font-weight: 200;
+}
+.toppcs {
+  color: greenyellow;
+  width: 30%;
+  height: 20%;
+  font-size: 20px;
 }
